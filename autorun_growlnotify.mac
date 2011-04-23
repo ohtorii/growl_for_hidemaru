@@ -4,7 +4,11 @@
 */
 
 $g_path_growlnotify = "C:\\Program Files\\Growl for Windows\\growlnotify.exe";
+
+//アイコンのファイル名
+//存在しなければアイコン無しで通知されます。
 $g_path_icon = currentmacrodirectory + "\\hidemaru_icon.png";
+
 
 call Main;
 endmacro;
